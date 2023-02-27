@@ -23,7 +23,7 @@ namespace Git {
 
 		string getTitle() const;
 		string getManufactur() const;
-		string getYear() const;
+		int getYear() const;
 
 		string toString() const;
 	};
